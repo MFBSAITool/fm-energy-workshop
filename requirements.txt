@@ -1,0 +1,14 @@
+# Dependencies for the Streamlit dashboards (dashboard/app*.py).
+# Streamlit Community Cloud installs these automatically from the repo root.
+#
+# Local install (inside the project venv):
+#     pip install -r requirements.txt
+
+streamlit>=1.50.0
+pandas>=2.2.2
+numpy>=1.26.4
+plotly>=5.22.0
+scikit-learn>=1.9.1
+joblib>=1.4.2
+python-dotenv>=0.21.0
+requests>=2.32.2
